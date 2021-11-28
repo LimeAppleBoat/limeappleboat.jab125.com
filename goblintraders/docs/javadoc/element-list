@@ -1,0 +1,17 @@
+com.jab125.limeappleboat.gobt.api
+com.jab125.util
+com.jab125.util.datagen
+com.jab125.util.forgehelper
+com.jab125.util.forgehelper.util
+com.jab125.util.tradehelper
+com.jab125.util.tradehelper.type
+net.hat.gt
+net.hat.gt.config
+net.hat.gt.datagen
+net.hat.gt.entities
+net.hat.gt.entities.ai
+net.hat.gt.init
+net.hat.gt.mixin
+net.hat.gt.spawning
+net.hat.gt.trades
+net.hat.gt.util
