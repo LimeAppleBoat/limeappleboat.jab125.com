@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.hat.gt",
+    "module": "goblin-traders-fabric",
+    "version": "1.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "5.0.38"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.jab125",
+          "module": "thonkutil-1.3"
+        }
+      ],
+      "files": [
+        {
+          "name": "goblin-traders-fabric-1.4.1.jar",
+          "url": "goblin-traders-fabric-1.4.1.jar",
+          "size": 326201,
+          "sha512": "b4a0dc5bba363d0f523766d3f0c9d37dfbfaaafa1e20ad04800f263c9999f2260f702674ce320c7bbfcec9ce822c44bbd42d2a7afc94e9a819b4b527bb5a4dbf",
+          "sha256": "b8e0cab29d3bebfaa41e331d812b75bc16ddd32ce636482314c2e87e36968fe6",
+          "sha1": "1e6544b9e59fe11465e461e9dec06a38e336ea04",
+          "md5": "a7de5a604644c05a8b38b13909dd88fb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.44.0+1.17"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "2.0.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "fabric-api"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "goblin-traders-fabric-1.4.1.jar",
+          "url": "goblin-traders-fabric-1.4.1.jar",
+          "size": 326201,
+          "sha512": "b4a0dc5bba363d0f523766d3f0c9d37dfbfaaafa1e20ad04800f263c9999f2260f702674ce320c7bbfcec9ce822c44bbd42d2a7afc94e9a819b4b527bb5a4dbf",
+          "sha256": "b8e0cab29d3bebfaa41e331d812b75bc16ddd32ce636482314c2e87e36968fe6",
+          "sha1": "1e6544b9e59fe11465e461e9dec06a38e336ea04",
+          "md5": "a7de5a604644c05a8b38b13909dd88fb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "goblin-traders-fabric-1.4.1-sources.jar",
+          "url": "goblin-traders-fabric-1.4.1-sources.jar",
+          "size": 196204,
+          "sha512": "8cfd322e13551ca47dbfdafc50234308283cd02f3ba8f5b402adb3d097f46940c2e4dde12d24f27a57ec4e21c1541b2a25dad61d0bb5792de607d4547bbe6cdc",
+          "sha256": "d247d64ea4f1b66ad7f30a2d30969bf0f63c144295aa6d03781ce55d226d7d03",
+          "sha1": "acdd4565f54373401825cee3a6b6808cc74d7df1",
+          "md5": "7980f8af4b9743c744e80df7b30400c4"
+        }
+      ]
+    }
+  ]
+}
